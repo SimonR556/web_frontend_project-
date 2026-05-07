@@ -1,7 +1,7 @@
 body {
     font-family: 'Open Sans', sans-serif;
     background-color: #f0f4f8;
-    font-family: Arial, sans-serif; /* O projeto pede 2 ou mais fontes */
+    font-family: Arial, sans-serif;
     padding: 0;
     margin: 0;
 }
@@ -33,4 +33,43 @@ footer a {
     color: #226ED8;
     text-decoration: none;
     font-weight: 600;
+}
+
+.titulo{
+    background-color: #fae571;
+    width: 100%;
+    margin: 0;    
+    padding: 10px 0;   
+    text-align: center;
+}
+
+.apresentacao{
+    display: flex;          
+    align-items: center;  
+    justify-content: space-around; 
+    padding: 20px;
+    gap: 30px;             
+}
+
+.imagem1 img{
+    border-radius: 8px;
+    object-fit: cover; 
+}
+
+.galeria {
+    display: flex;          
+    /*flex-wrap: wrap;  */     
+    justify-content: center; /* Centraliza as imagens horizontalmente */
+    align-items: baseline; /* Alinha as imagens pelo topo */
+    gap: 20px;              /* Cria um espaçamento entre as imagens [cite: 207] */
+    margin-top: 20px;   
+}
+
+.galeria figure {
+    text-align: center;    
+}
+
+.galeria img {
+    border-radius: 8px;
+    object-fit: cover; 
 }
