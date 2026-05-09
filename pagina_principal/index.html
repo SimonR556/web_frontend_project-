@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>EducaDoa</title>
+    <link rel="icon" href="/web_frontend_project/pagina_principal/img/icon_logo.svg">
     <link rel="stylesheet" href="style.css"/>
 
     <!--link do google fonts-->
@@ -13,7 +14,10 @@
 </head>
 <body>
 <header>
-    <h1 class="headerTitle">EducaDoa</h1>
+    <div class="header-content">
+        <img src="/web_frontend_project/pagina_principal/img/icon_logo2.svg" alt="Logo EducaDoa" width="45" height="45">
+        <h1 class="headerTitle">EducaDoa</h1>
+    </div>
 <nav> 
     <a href="index.html">Inicio</a>
     <a href="/pagina_login/login.html">Entrar</a>
@@ -26,19 +30,19 @@
         </div>
         <div class="apresentacao">
         <section id="como_quem_missao">
-                <h3>Como funciona?</h3>
+                <h2>Como funciona?</h2>
                 <p>
                 Veja como você pode ajudar a transformar o estudo de alguém na nossa região.
                 </p>
                 
-                <h3>Quem Somos?</h3>
+                <h2>Quem Somos?</h2>
                 <p>
                     O <strong>EducaDoa</strong> nasceu da vontade de fortalecer a educação em Cornélio Procópio e região. 
                     Sabemos que muitos estudantes possuem materiais em bom estado que não utilizam mais, enquanto outros 
                     enfrentam dificuldades para adquirir o básico para seus estudos.
                 </p>
                 <section id="missao">
-                <h3>Nossa Missão</h3>
+                <h2>Nossa Missão</h2>
                 <p>
                     O EducaDoa facilita o acesso a materiais essenciais. Você pode ajudar de duas formas:
                 </p>
@@ -53,7 +57,7 @@
                 </p>
 
                 <div class="btn-container">
-                <a href="cadastro.html" class="btn-doe">Doe agora</a>
+                <a href="cadastro.html" class="btn-doe">Doe agora</a> <!--futuramente, colocar uma verificação, if(usuario logado -> pagina de publicacao) else (usuario sem login -> pagina de cadastro)-->
                 </div>
             </section>
             
@@ -81,6 +85,7 @@
 
 <section class="vitrine-doacoes">
     <h2>Itens Disponíveis para Doação</h2>
+    <h3>(clique em tenho Interesse para entrar em contato)</h3>
     <div class="cards-container">
         <article class="card">
             <img src="img/cadernoExemplo.jpg" alt="Caderno universitário" width="150">
@@ -119,7 +124,6 @@
     </section>
 
 </main>
-</body>
 
 <footer>
         <p>&copy; 2026 EducaDoa - Cornélio Procópio</p>
@@ -132,5 +136,5 @@
         <a>images from:</a>
         <a href="https://unsplash.com/pt-br">unsplash</a>
 </footer>
-
+</body>
 </html>
