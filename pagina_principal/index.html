@@ -1,140 +1,148 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>EducaDoa</title>
     <link rel="icon" href="/web_frontend_project/pagina_principal/img/icon_logo.svg">
-    <link rel="stylesheet" href="style.css"/>
+    <link rel="stylesheet" href="style.css" />
 
     <!--link do google fonts-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Open+Sans:wght@400;600&display=swap"
+        rel="stylesheet">
 </head>
-<body>
-<header>
-    <div class="header-content">
-        <img src="/web_frontend_project/pagina_principal/img/icon_logo2.svg" alt="Logo EducaDoa" width="45" height="45">
-        <h1 class="headerTitle">EducaDoa</h1>
-    </div>
-<nav> 
-    <a href="index.html">Inicio</a>
-    <a href="/pagina_login/login.html">Entrar</a>
-</nav>
-</header>
-<main>
-    <section>
-        <div class="titulo">
-            <h1>Página de doação de materiais escolares online</h1>
-        </div>
-        <div class="apresentacao">
-        <section id="como_quem_missao">
-                <h2>Como funciona?</h2>
-                <p>
-                Veja como você pode ajudar a transformar o estudo de alguém na nossa região.
-                </p>
-                
-                <h2>Quem Somos?</h2>
-                <p>
-                    O <strong>EducaDoa</strong> nasceu da vontade de fortalecer a educação em Cornélio Procópio e região. 
-                    Sabemos que muitos estudantes possuem materiais em bom estado que não utilizam mais, enquanto outros 
-                    enfrentam dificuldades para adquirir o básico para seus estudos.
-                </p>
-                <section id="missao">
-                <h2>Nossa Missão</h2>
-                <p>
-                    O EducaDoa facilita o acesso a materiais essenciais. Você pode ajudar de duas formas:
-                </p>
-                <ul>
-                    <li><strong>Entrega Direta:</strong> Você pode trazer sua doação até nosso ponto fixo.</li>
-                    <li><strong>Postagem Online:</strong> Faça seu cadastro, poste fotos do item e nós ajudaremos a conectar você a alguém que precise, que entrará em contato para combinar a retirada.</li>
-                </ul>
-                </section>
-                <p>
-                    Acreditamos que o conhecimento deve circular. Quando você doa um item de estudo, você não está apenas 
-                    esvaziando uma gaveta, está abrindo portas para o futuro de um colega estudante.
-                </p>
 
-                <div class="btn-container">
-                <a href="cadastro.html" class="btn-doe">Doe agora</a> <!--futuramente, colocar uma verificação, if(usuario logado -> pagina de publicacao) else (usuario sem login -> pagina de cadastro)-->
+<body>
+    <header>
+        <div class="header-content">
+            <img src="img/icon_logo2.svg" alt="Logo EducaDoa" width="45" height="45">
+            <h1 class="headerTitle">EducaDoa</h1>
+        </div>
+        <nav>
+            <a href="index.html">Inicio</a>
+            <a href="/pagina_login/login.html">Entrar</a>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <div class="titulo">
+                <h1>Página de doação de materiais escolares online</h1>
+            </div>
+            <div class="apresentacao">
+                <section id="como_quem_missao">
+                    <h2>Como funciona?</h2>
+                    <p>
+                        Veja como você pode ajudar a transformar o estudo de alguém na nossa região.
+                    </p>
+
+                    <h2>Quem Somos?</h2>
+                    <p>
+                        O <strong>EducaDoa</strong> nasceu da vontade de fortalecer a educação em Cornélio Procópio e
+                        região.
+                        Sabemos que muitos estudantes possuem materiais em bom estado que não utilizam mais, enquanto
+                        outros
+                        enfrentam dificuldades para adquirir o básico para seus estudos.
+                    </p>
+                    <section id="missao">
+                        <h2>Nossa Missão</h2>
+                        <p>
+                            O EducaDoa facilita o acesso a materiais essenciais. Você pode ajudar de duas formas:
+                        </p>
+                        <ul>
+                            <li><strong>Entrega Direta:</strong> Você pode trazer sua doação até nosso ponto fixo.</li>
+                            <li><strong>Postagem Online:</strong> Faça seu cadastro, poste fotos do item e nós
+                                ajudaremos a conectar você a alguém que precise, que entrará em contato para combinar a
+                                retirada.</li>
+                        </ul>
+                    </section>
+                    <p>
+                        Acreditamos que o conhecimento deve circular. Quando você doa um item de estudo, você não está
+                        apenas
+                        esvaziando uma gaveta, está abrindo portas para o futuro de um colega estudante.
+                    </p>
+
+                    <div class="btn-container">
+                        <a href="../pagina_cadastro/cadastro.html" class="btn-doe">Doe agora</a>
+                        <!--futuramente, colocar uma verificação, if(usuario logado -> pagina de publicacao) else (usuario sem login -> pagina de cadastro)-->
+                    </div>
+                </section>
+
+                <div class="imagem1">
+                    <img src="img/livros.jpg" alt="imagem do corredor de uma biblioteca" width="400" height="530">
+                </div>
+            </div>
+
+            <hr class="divisor-largo">
+
+            <section class="localizacao">
+                <h2>Nossa Localização</h2>
+
+                <div class="mapa-container">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3667.56505049437!2d-50.6577658653259!3d-23.186069594820466!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94eadf19f06f311f%3A0x8a2e7a0e8621b0f3!2sUTFPR%20Corn%C3%A9lio%20Proc%C3%B3pio!5e0!3m2!1spt-BR!2sbr!4v1778209797365!5m2!1spt-BR!2sbr"
+                        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy">
+                    </iframe>
                 </div>
             </section>
-            
-        <div class="imagem1">
-                <img src="img/livros.jpg" alt="imagem do corredor de uma biblioteca" width="400" height="530">
-        </div>
-        </div>
 
-<hr class="divisor-largo">
+            <section class="vitrine-doacoes">
+                <h2>Itens Disponíveis para Doação</h2>
+                <h3>(clique em tenho Interesse para entrar em contato)</h3>
+                <div class="cards-container">
+                    <article class="card">
+                        <img src="img/cadernoExemplo.jpg" alt="Caderno universitário" width="150">
+                        <h4>Caderno 10 Matérias</h4>
+                        <p>Região: Centro</p>
+                        <button class="btn-contato">Tenho Interesse</button>
+                    </article>
 
-<section class="localizacao">
-    <h2>Nossa Localização</h2>
-    
-    <div class="mapa-container">
-        <iframe 
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3667.56505049437!2d-50.6577658653259!3d-23.186069594820466!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94eadf19f06f311f%3A0x8a2e7a0e8621b0f3!2sUTFPR%20Corn%C3%A9lio%20Proc%C3%B3pio!5e0!3m2!1spt-BR!2sbr!4v1778209797365!5m2!1spt-BR!2sbr" 
-            width="600" 
-            height="450" 
-            style="border:0;" 
-            allowfullscreen="" 
-            loading="lazy">
-        </iframe>
-    </div>
-</section>
+                    <article class="card">
+                        <img src="img/mochilaExemplo.jpg" alt="Mochila escolar azul" width="150">
+                        <h4>Mochila Escolar</h4>
+                        <p>Região: Vila Prudêncio</p>
+                        <button class="btn-contato">Tenho Interesse</button>
+                    </article>
+                </div>
+            </section>
 
-<section class="vitrine-doacoes">
-    <h2>Itens Disponíveis para Doação</h2>
-    <h3>(clique em tenho Interesse para entrar em contato)</h3>
-    <div class="cards-container">
-        <article class="card">
-            <img src="img/cadernoExemplo.jpg" alt="Caderno universitário" width="150">
-            <h4>Caderno 10 Matérias</h4>
-            <p>Região: Centro</p>
-            <button class="btn-contato">Tenho Interesse</button>
-        </article>
+            <hr class="divisor-largo">
 
-        <article class="card">
-            <img src="img/mochilaExemplo.jpg" alt="Mochila escolar azul" width="150">
-            <h4>Mochila Escolar</h4>
-            <p>Região: Vila Prudêncio</p>
-            <button class="btn-contato">Tenho Interesse</button>
-        </article>
-    </div>
-</section>
+            <div class="galeria">
+                <figure>
+                    <img src="img/escrevendo.jpg" alt="Estudante escrevendo em um caderno" width="300" height="200">
+                    <figcaption>Apoie o futuro de um estudante local</figcaption>
+                </figure>
 
-<hr class="divisor-largo">
+                <figure>
+                    <img src="img/estudante_com_livros.jpg" alt="imagem de um estudante com livros" width="350"
+                        height="530">
+                    <figcaption>Materiais prontos para doação</figcaption>
+                </figure>
 
-<div class="galeria">
-            <figure>
-                <img src="img/escrevendo.jpg" alt="Estudante escrevendo em um caderno" width="300" height="200">
-                <figcaption>Apoie o futuro de um estudante local</figcaption>
-            </figure>
-  
-            <figure>
-                <img src="img/estudante_com_livros.jpg" alt="imagem de um estudante com livros" width="350" height="530">
-                <figcaption>Materiais prontos para doação</figcaption>
-            </figure>
-  
-            <figure>
-                <img src="img/estudantes.jpg" alt="estudantes tendo aula" width="300" height="200">
-                <figcaption>O ciclo do conhecimento continua</figcaption>
-            </figure>
-        </div>
-    </section>
+                <figure>
+                    <img src="img/estudantes.jpg" alt="estudantes tendo aula" width="300" height="200">
+                    <figcaption>O ciclo do conhecimento continua</figcaption>
+                </figure>
+            </div>
+        </section>
 
-</main>
+    </main>
 
-<footer>
+    <footer>
         <p>&copy; 2026 EducaDoa - Cornélio Procópio</p>
         <a href="https://simonr556.github.io/" target="_blank">Thiago Dutra da Silva</a>
         <br>
-        <a href="https://duduaguiaarr-source.github.io/" target="_blank">Eduardo de Oliveira Agiar</a>
+        <a href="https://duduaguiaarr-source.github.io/" target="_blank">Eduardo de Oliveira Aguiar</a>
         <br>
-        <a href="https://nathanvictoroc.github.io/nathanvictor.github.io/" target="_blank">Nathan Vitor da Costa</a>
+        <a href="https://nathanvictoroc.github.io/nathanvictor.github.io/" target="_blank">Nathan Victor de Oliveira
+            Costa</a>
         <br>
         <a>images from:</a>
         <a href="https://unsplash.com/pt-br">unsplash</a>
-</footer>
+    </footer>
 </body>
+
 </html>
