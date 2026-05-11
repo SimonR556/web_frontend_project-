@@ -1,0 +1,264 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #f0f4f8;
+    margin: 0;
+    padding: 0;
+    color: #2c3e50;
+}
+
+h1,
+h2,
+label {
+    font-family: 'Montserrat', sans-serif;
+}
+
+header {
+    background-color: #2c3e50;
+    color: white;
+    padding: 20px;
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.headerTitle {
+    margin: 0;
+}
+
+nav a {
+    margin-right: 15px;
+    color: #ecf0f1;
+    text-decoration: none;
+}
+
+nav a:visited {
+    color: #6A1B9A;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.titulo {
+    background-color: #fae571;
+    width: 100%;
+    margin: 0;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.titulo h1 {
+    margin: 0;
+    font-size: 1.4rem;
+}
+
+main {
+    max-width: 560px;
+    margin: 40px auto;
+    padding: 0 20px 40px;
+}
+
+.form-card {
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    padding: 40px 48px;
+}
+
+.form-card h2 {
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 6px;
+    font-size: 1.4rem;
+}
+
+.form-card .subtitulo {
+    text-align: center;
+    color: #555;
+    margin-bottom: 28px;
+    font-size: 0.9rem;
+}
+
+.campo-grupo {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-bottom: 18px;
+}
+
+.campo-grupo label {
+    font-size: 0.88rem;
+    font-weight: 700;
+}
+
+.campo-grupo input[type="text"],
+.campo-grupo input[type="email"],
+.campo-grupo input[type="password"],
+.campo-grupo input[type="tel"],
+.campo-grupo textarea {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.95rem;
+    padding: 10px 14px;
+    border: 1.5px solid #ccc;
+    border-radius: 6px;
+    background-color: #fafafa;
+    color: #2c3e50;
+    width: 100%;
+    transition: border-color 0.2s, box-shadow 0.2s;
+}
+
+.campo-grupo textarea {
+    resize: vertical;
+    min-height: 110px;
+}
+
+.campo-grupo input:focus,
+.campo-grupo textarea:focus {
+    outline: none;
+    border-color: #f5c800;
+    box-shadow: 0 0 0 3px rgba(250, 229, 113, 0.45);
+}
+
+/* Upload de imagem */
+.campo-grupo input[type="file"] {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.9rem;
+    padding: 10px 14px;
+    border: 1.5px solid #ccc;
+    border-radius: 6px;
+    background-color: #fafafa;
+    color: #2c3e50;
+    width: 100%;
+    cursor: pointer;
+}
+
+/* Opções de entrega */
+.opcoes-entrega {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 4px;
+}
+
+.opcao-radio {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 12px 14px;
+    border: 1.5px solid #ccc;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: border-color 0.2s, background-color 0.2s;
+    font-size: 0.93rem;
+    font-family: 'Open Sans', sans-serif;
+    color: #2c3e50;
+    background-color: #fafafa;
+    user-select: none;
+}
+
+.opcao-radio:hover {
+    border-color: #f5c800;
+    background-color: #fffde7;
+}
+
+.opcao-radio input[type="radio"] {
+    accent-color: #f5c800;
+    width: 17px;
+    height: 17px;
+    cursor: pointer;
+    flex-shrink: 0;
+}
+
+.opcao-radio input[type="radio"]:checked+.opcao-texto {
+    font-weight: 700;
+    color: #2c3e50;
+}
+
+.opcao-radio:has(input:checked) {
+    border-color: #f5c800;
+    background-color: #fffde7;
+    box-shadow: 0 0 0 3px rgba(250, 229, 113, 0.35);
+}
+
+.opcao-texto {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
+.opcao-texto span {
+    font-size: 0.78rem;
+    color: #777;
+    font-weight: 400;
+}
+
+/* Botões */
+.botoes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 14px;
+    margin-top: 28px;
+}
+
+.btn-cadastrar {
+    background-color: #fae571;
+    color: #2c3e50;
+    padding: 14px 60px;
+    border: none;
+    border-radius: 50px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.btn-cadastrar:hover {
+    background-color: #a5984c;
+    color: white;
+}
+
+.link-voltar {
+    font-size: 0.9rem;
+    color: #555;
+    margin: 0;
+}
+
+.link-voltar a {
+    color: #226ED8;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.link-voltar a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    background-color: #bdc3c7;
+    padding: 15px;
+    text-align: center;
+}
+
+footer a {
+    color: #226ED8;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+@media (max-width: 500px) {
+    .form-card {
+        padding: 28px 20px;
+    }
+}
