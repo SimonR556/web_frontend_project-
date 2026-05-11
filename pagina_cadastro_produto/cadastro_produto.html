@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Produto - EducaDoa</title>
+    <link rel="icon" href="/web_frontend_project/pagina_principal/img/icon_logo.svg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Open+Sans:wght@400;600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="cadastro_produto.css">
+</head>
+
+<body>
+
+    <header>
+        <div class="header-content">
+            <img src="../pagina_principal/img/icon_logo2.svg" alt="Logo EducaDoa" width="45" height="45">
+            <h1 class="headerTitle">EducaDoa</h1>
+        </div>
+        <nav>
+            <a href="index.html">Inicio</a>
+            <a href="/pagina_login/login.html">Entrar</a>
+        </nav>
+    </header>
+
+    <div class="titulo">
+        <h1>Cadastro de Produto</h1>
+    </div>
+
+    <main>
+        <div class="form-card">
+            <h2>Novo produto</h2>
+            <p class="subtitulo">Preencha as informações do material escolar que deseja doar.</p>
+
+            <form action="#" method="post" enctype="multipart/form-data">
+
+                <div class="campo-grupo">
+                    <label for="nome_produto">Nome do produto *</label>
+                    <input type="text" id="nome_produto" name="nome_produto"
+                        placeholder="Ex: Kit de lápis de cor, mochila..." required>
+                </div>
+
+                <div class="campo-grupo">
+                    <label for="descricao">Descrição *</label>
+                    <textarea id="descricao" name="descricao"
+                        placeholder="Descreva o estado do produto, quantidade, marca ou outras informações relevantes..."
+                        required></textarea>
+                </div>
+
+                <div class="campo-grupo">
+                    <label for="imagem">Imagem do produto</label>
+                    <input type="file" id="imagem" name="imagem" accept="image/*">
+                </div>
+
+                <div class="campo-grupo">
+                    <label>Local de entrega *</label>
+                    <div class="opcoes-entrega">
+
+                        <label class="opcao-radio">
+                            <input type="radio" name="local_entrega" value="endereco" required>
+                            <div class="opcao-texto">
+                                Meu endereço cadastrado
+                                <span>O donatário retira no seu endereço</span>
+                            </div>
+                        </label>
+
+                        <label class="opcao-radio">
+                            <input type="radio" name="local_entrega" value="utfpr">
+                            <div class="opcao-texto">
+                                UTFPR - Cornélio Procópio
+                                <span>Entrega no campus da universidade</span>
+                            </div>
+                        </label>
+
+                    </div>
+                </div>
+
+                <div class="botoes">
+
+                    <button type="submit" class="btn-cadastrar">Cadastrar produto</button>
+
+                </div>
+
+            </form>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 EducaDoa - Cornélio Procópio</p>
+        <a href="https://simonr556.github.io/" target="_blank">Thiago Dutra da Silva</a>
+        <br>
+        <a href="https://duduaguiaarr-source.github.io/" target="_blank">Eduardo de Oliveira Aguiar</a>
+        <br>
+        <a href="https://nathanvictorook.github.io/nathanvictor.github.io/" target="_blank">Nathan Victor de Oliveira
+            Costa</a>
+    </footer>
+
+
+</body>
+
+</html>
