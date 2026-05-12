@@ -1,18 +1,18 @@
 # EducaDoa - plataforma de doação de materiais escolares
 
 ## descrição do Projeto
-[cite_start]O **EducaDoa** é uma aplicação web desenvolvida para a disciplina de programação web front-end[cite: 1]. [cite_start]O projeto consiste em uma plataforma de impacto social voltada para a comunidade de **Cornélio Procópio - PR**, alinhada aos objetivos de desenvolvimento sustentável (ODS) da ONU[cite: 31].
+O **EducaDoa** é uma aplicação web desenvolvida para a disciplina de programação web front-end. O projeto consiste em uma plataforma de impacto social voltada para a comunidade de **Cornélio Procópio - PR**, alinhada aos objetivos de desenvolvimento sustentável (ODS) da ONU.
 
 o sistema permite que doadores cadastrem itens escolares (cadernos, mochilas, livros) que não utilizam mais, enquanto estudantes que necessitam desses materiais podem visualizar as ofertas por região e entrar em contato para receber a doação.
 
 ## tecnologias utilizadas
-[cite_start]para este projeto, foram utilizadas estritamente as tecnologias base, sem o uso de frameworks externos[cite: 46]:
-- [cite_start]**HTML5**: estruturação semântica do conteúdo[cite: 54, 297].
-- [cite_start]**CSS3**: estilização, layout e responsividade[cite: 3].
+para este projeto, foram utilizadas estritamente as tecnologias base, sem o uso de frameworks externos:
+- **HTML5**: estruturação semântica do conteúdo.
+- **CSS3**: estilização, layout e responsividade.
 - **Google Fonts**: fontes 'Montserrat' e 'Open Sans' para melhor legibilidade.
 
 ## estrutura do projeto
-[cite_start]a organização do repositório segue a divisão de tarefas da equipe:
+a organização do repositório segue a divisão de tarefas da equipe:
 
 ```text
 web_frontend_project/
