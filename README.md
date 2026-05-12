@@ -13,7 +13,9 @@ para este projeto, foram utilizadas estritamente as tecnologias base, sem o uso 
 
 ### equipe:
 Thiago Dutra da Silva
+<br>
 Nathan Victor de Oliveira Costa
+<br>
 Eduardo de Oliveira Aguiar
 
 ## estrutura do projeto
