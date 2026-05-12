@@ -11,6 +11,11 @@ para este projeto, foram utilizadas estritamente as tecnologias base, sem o uso 
 - **CSS3**: estilização, layout e responsividade.
 - **Google Fonts**: fontes 'Montserrat' e 'Open Sans' para melhor legibilidade.
 
+### equipe:
+Thiago Dutra da Silva
+Nathan Victor de Oliveira Costa
+Eduardo de Oliveira Aguiar
+
 ## estrutura do projeto
 a organização do repositório segue a divisão de tarefas da equipe:
 
