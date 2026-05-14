@@ -58,6 +58,11 @@ nav a:hover {
     text-align: center;
 }
 
+.titulo h1 {
+    margin: 0;
+    font-size: 1.4rem;
+}
+
 .apresentacao{
     display: flex;          
     align-items: center;  
