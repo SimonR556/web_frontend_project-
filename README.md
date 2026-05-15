@@ -18,6 +18,7 @@ Nathan Victor de Oliveira Costa
 <br>
 Eduardo de Oliveira Aguiar
 
+[clique aqui para acessar o video explicativo do projeto](https://drive.google.com/file/d/1OkjKlcLXor6cIpHzVBygFpuJg_wpRQzl/view?usp=sharing)
 ## estrutura do projeto
 a organização do repositório segue a divisão de tarefas da equipe:
 
