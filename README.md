@@ -1,4 +1,4 @@
-# EducaDoa - plataforma de doação de materiais escolares
+# [EducaDoa](http://127.0.0.1:5500/web_frontend_project/pagina_principal/index.html) - plataforma de doação de materiais escolares
 
 ## descrição do Projeto
 O **EducaDoa** é uma aplicação web desenvolvida para a disciplina de programação web front-end. O projeto consiste em uma plataforma de impacto social voltada para a comunidade de **Cornélio Procópio - PR**, alinhada aos objetivos de desenvolvimento sustentável (ODS) da ONU.
