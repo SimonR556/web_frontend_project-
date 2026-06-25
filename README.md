@@ -1,4 +1,4 @@
-# EducaDoa - plataforma de doação de materiais escolares
+# [EducaDoa](https://simonr556.github.io/web_frontend_project-/pagina_principal/index.html) - plataforma de doação de materiais escolares
 
 ## descrição do Projeto
 O **EducaDoa** é uma aplicação web desenvolvida para a disciplina de programação web front-end. O projeto consiste em uma plataforma de impacto social voltada para a comunidade de **Cornélio Procópio - PR**, alinhada aos objetivos de desenvolvimento sustentável (ODS) da ONU.
@@ -18,6 +18,7 @@ Nathan Victor de Oliveira Costa
 <br>
 Eduardo de Oliveira Aguiar
 
+[clique aqui para acessar o video explicativo do projeto](https://drive.google.com/file/d/1OkjKlcLXor6cIpHzVBygFpuJg_wpRQzl/view?usp=sharing)
 ## estrutura do projeto
 a organização do repositório segue a divisão de tarefas da equipe:
 
