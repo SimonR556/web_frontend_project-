@@ -8,12 +8,17 @@
     <link rel="icon" href="/web_frontend_project/pagina_principal/img/icon_logo.svg">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Open+Sans:wght@400;600&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="cadastro_produto.css">
 </head>
 
 <body>
+    <div class="painel-acessibilidade">
+        <button id="btn-contraste">Alto Contraste</button>
+        <button id="btn-aumentar">A+ (Aumentar Texto)</button>
+        <button id="btn-diminuir">A- (Diminuir Texto)</button>
+        <button id="btn-espacamento">Espaçamento ABNT</button>
+    </div>
 
     <header>
         <div class="header-content">
@@ -40,15 +45,12 @@
 
                 <div class="campo-grupo">
                     <label for="nome_produto">Nome do produto *</label>
-                    <input type="text" id="nome_produto" name="nome_produto"
-                        placeholder="Ex: Kit de lápis de cor, mochila..." required>
+                    <input type="text" id="nome_produto" name="nome_produto" placeholder="Ex: Kit de lápis de cor, mochila..." required>
                 </div>
 
                 <div class="campo-grupo">
                     <label for="descricao">Descrição *</label>
-                    <textarea id="descricao" name="descricao"
-                        placeholder="Descreva o estado do produto, quantidade, marca ou outras informações relevantes..."
-                        required></textarea>
+                    <textarea id="descricao" name="descricao" placeholder="Descreva o estado do produto, quantidade, marca ou outras informações relevantes..." required></textarea>
                 </div>
 
                 <div class="campo-grupo">
@@ -59,7 +61,6 @@
                 <div class="campo-grupo">
                     <label>Local de entrega *</label>
                     <div class="opcoes-entrega">
-
                         <label class="opcao-radio">
                             <input type="radio" name="local_entrega" value="endereco" required>
                             <div class="opcao-texto">
@@ -75,14 +76,11 @@
                                 <span>Entrega no campus da universidade</span>
                             </div>
                         </label>
-
                     </div>
                 </div>
 
                 <div class="botoes">
-
                     <button type="submit" class="btn-cadastrar">Cadastrar produto</button>
-
                 </div>
 
             </form>
@@ -95,11 +93,10 @@
         <br>
         <a href="https://duduaguiaarr-source.github.io/" target="_blank">Eduardo de Oliveira Aguiar</a>
         <br>
-        <a href="https://nathanvictorook.github.io/nathanvictor.github.io/" target="_blank">Nathan Victor de Oliveira
-            Costa</a>
+        <a href="https://nathanvictorook.github.io/nathanvictor.github.io/" target="_blank">Nathan Victor de Oliveira Costa</a>
     </footer>
 
-
+    <script src="acessibilidade.js"></script>
 </body>
 
 </html>

@@ -33,6 +33,7 @@ header {
 
 .headerTitle {
     margin: 0;
+    line-height: 1;
 }
 
 nav a {
@@ -129,7 +130,6 @@ main {
     box-shadow: 0 0 0 3px rgba(250, 229, 113, 0.45);
 }
 
-/* Upload de imagem */
 .campo-grupo input[type="file"] {
     font-family: 'Open Sans', sans-serif;
     font-size: 0.9rem;
@@ -142,7 +142,6 @@ main {
     cursor: pointer;
 }
 
-/* Opções de entrega */
 .opcoes-entrega {
     display: flex;
     flex-direction: column;
@@ -202,7 +201,6 @@ main {
     font-weight: 400;
 }
 
-/* Botões */
 .botoes {
     display: flex;
     flex-direction: column;
@@ -261,4 +259,94 @@ footer a {
     .form-card {
         padding: 28px 20px;
     }
+}
+
+.painel-acessibilidade {
+    background-color: #2c3e50;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.painel-acessibilidade button {
+    background-color: #fae571;
+    color: #000;
+    border: none;
+    padding: 8px 15px;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.painel-acessibilidade button:hover {
+    background-color: #fff;
+}
+
+body.alto-contraste {
+    background-color: #000 !important;
+    color: #FFF !important;
+}
+
+body.alto-contraste header, 
+body.alto-contraste footer, 
+body.alto-contraste .titulo, 
+body.alto-contraste .form-card,
+body.alto-contraste .painel-acessibilidade {
+    background-color: #000 !important;
+    border: 1px solid #FFF !important;
+    color: #FFF !important;
+}
+
+body.alto-contraste a, 
+body.alto-contraste h1, 
+body.alto-contraste h2, 
+body.alto-contraste label, 
+body.alto-contraste p,
+body.alto-contraste span,
+body.alto-contraste .opcao-texto {
+    color: #FFF !important;
+}
+
+body.alto-contraste input,
+body.alto-contraste textarea,
+body.alto-contraste .opcao-radio {
+    background-color: #000 !important;
+    color: #FFF !important;
+    border: 1px solid #FFF !important;
+}
+
+body.alto-contraste .opcao-radio:hover {
+    background-color: #222 !important;
+}
+
+body.alto-contraste .opcao-radio:has(input:checked) {
+    background-color: #333 !important;
+    border-color: #f5c800 !important;
+}
+
+body.alto-contraste .opcao-radio input[type="radio"]:checked+.opcao-texto {
+    color: #FFF !important;
+}
+
+body.alto-contraste .header-content img {
+    filter: invert(100%);
+}
+
+body.espacamento-ativo p, 
+body.espacamento-ativo label, 
+body.espacamento-ativo a, 
+body.espacamento-ativo h1, 
+body.espacamento-ativo h2,
+body.espacamento-ativo span,
+body.espacamento-ativo .opcao-texto {
+    line-height: 1.5 !important;
+    letter-spacing: 0.12em !important;
+    word-spacing: 0.16em !important;
+}
+
+body.espacamento-ativo p {
+    margin-bottom: 2em !important;
 }

@@ -8,17 +8,21 @@
     <link rel="icon" href="/web_frontend_project/pagina_principal/img/icon_logo.svg">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Open+Sans:wght@400;600&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="cadastro.css">
 </head>
 
 <body>
+    <div class="painel-acessibilidade">
+        <button id="btn-contraste">Alto Contraste</button>
+        <button id="btn-aumentar">A+ (Aumentar Texto)</button>
+        <button id="btn-diminuir">A- (Diminuir Texto)</button>
+        <button id="btn-espacamento">Espaçamento ABNT</button>
+    </div>
 
     <header>
         <div class="header-content">
-            <img src="./img/icon_logo2.svg" alt="Logo EducaDoa" width="45"
-                height="45">
+            <img src="./img/icon_logo2.svg" alt="Logo EducaDoa" width="45" height="45">
             <h1 class="headerTitle">EducaDoa</h1>
         </div>
         <nav>
@@ -38,7 +42,6 @@
             <p class="subtitulo">Preencha os dados abaixo para começar a doar materiais escolares na sua região.</p>
 
             <form action="#" method="post">
-
                 <div class="campo-grupo">
                     <label for="nome">Nome completo *</label>
                     <input type="text" id="nome" name="nome" placeholder="Seu nome completo" required>
@@ -51,14 +54,12 @@
 
                 <div class="campo-grupo">
                     <label for="senha">Senha *</label>
-                    <input type="password" id="senha" name="senha" placeholder="Mínimo 8 caracteres" required
-                        minlength="8">
+                    <input type="password" id="senha" name="senha" placeholder="Mínimo 8 caracteres" required minlength="8">
                 </div>
 
                 <div class="campo-grupo">
                     <label for="confirmar_senha">Confirmar senha *</label>
-                    <input type="password" id="confirmar_senha" name="confirmar_senha" placeholder="Repita a senha"
-                        required>
+                    <input type="password" id="confirmar_senha" name="confirmar_senha" placeholder="Repita a senha" required>
                 </div>
 
                 <div class="campo-grupo">
@@ -75,7 +76,6 @@
                     <button type="submit" class="btn-cadastrar">Cadastrar</button>
                     <p class="link-login">Já tem uma conta? <a href="../pagina_login/login.html">Entrar</a></p>
                 </div>
-
             </form>
         </div>
     </main>
@@ -86,10 +86,10 @@
         <br>
         <a href="https://duduaguiaarr-source.github.io/" target="_blank">Eduardo de Oliveira Aguiar</a>
         <br>
-        <a href="https://nathanvictorook.github.io/nathanvictor.github.io/" target="_blank">Nathan Victor de Oliveira
-            Costa</a>
+        <a href="https://nathanvictorook.github.io/nathanvictor.github.io/" target="_blank">Nathan Victor de Oliveira Costa</a>
     </footer>
 
+    <script src="acessibilidade.js"></script>
 </body>
 
 </html>
