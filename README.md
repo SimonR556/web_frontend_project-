@@ -21,7 +21,7 @@ Eduardo de Oliveira Aguiar
 
 [clique aqui para acessar o video explicativo do projeto](https://drive.google.com/file/d/1OkjKlcLXor6cIpHzVBygFpuJg_wpRQzl/view?usp=sharing)
 <br>
-[clique aqui para acessar o video explicativo do projeto - JavaScript](link do video)
+[clique aqui para acessar o video explicativo do projeto - JavaScript](https://drive.google.com/file/d/1kUKr6Lr__nMoGSTN2xi0Qox9HbtfiCZW/view?usp=sharing)
 ## estrutura do projeto
 a organização do repositório segue a divisão de tarefas da equipe:
 
